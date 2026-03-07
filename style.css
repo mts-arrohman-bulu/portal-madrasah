@@ -102,18 +102,20 @@ margin-bottom:20px;
 position:fixed;
 bottom:20px;
 right:20px;
+width:60px;
+height:60px;
 background:#25D366;
-color:white;
-width:55px;
-height:55px;
 border-radius:50%;
 display:flex;
 align-items:center;
 justify-content:center;
-font-size:26px;
-text-decoration:none;
 box-shadow:0 4px 10px rgba(0,0,0,0.3);
 z-index:1000;
+}
+
+.wa-float img{
+width:35px;
+height:35px;
 }
 
 .wa-float:hover{
