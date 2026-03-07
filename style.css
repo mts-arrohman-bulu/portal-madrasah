@@ -88,6 +88,16 @@ border-radius:5px;
 background:#1e874b;
 }
 
+.kontak{
+padding:40px 20px;
+background:white;
+text-align:center;
+}
+
+.kontak h2{
+margin-bottom:20px;
+}
+
 /* FOOTER */
 footer{
 background:#145a32;
