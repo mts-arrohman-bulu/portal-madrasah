@@ -170,6 +170,57 @@ html{
 scroll-behavior:smooth;
 }
 
+.layanan{
+padding:80px 20px;
+text-align:center;
+background:#f5f7fa;
+}
+
+.layanan h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.layanan-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+gap:30px;
+max-width:1000px;
+margin:auto;
+margin-top:40px;
+}
+
+.layanan-item{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.layanan-item:hover{
+transform:translateY(-8px);
+}
+
+.layanan-item img{
+width:90px;
+margin-bottom:15px;
+}
+
+.layanan-item a{
+display:inline-block;
+margin-top:10px;
+padding:10px 18px;
+background:#1c7c54;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.layanan-item a:hover{
+background:#145a32;
+}
+
 /* FOOTER */
 footer{
 background:#145a32;
