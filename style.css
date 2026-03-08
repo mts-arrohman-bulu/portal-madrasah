@@ -221,6 +221,42 @@ border-radius:5px;
 background:#145a32;
 }
 
+.statistik{
+background:#1c7c54;
+color:white;
+padding:70px 20px;
+text-align:center;
+}
+
+.statistik h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.statistik-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+gap:30px;
+max-width:900px;
+margin:auto;
+margin-top:40px;
+}
+
+.stat-item{
+background:rgba(255,255,255,0.1);
+padding:25px;
+border-radius:10px;
+}
+
+.stat-item h3{
+font-size:36px;
+margin:0;
+}
+
+.stat-item p{
+margin:5px 0 0 0;
+}
+
 /* FOOTER */
 footer{
 background:#145a32;
