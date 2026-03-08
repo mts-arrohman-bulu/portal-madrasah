@@ -124,13 +124,13 @@ background:#1ebe5d;
 
 .hero{
 background:
-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
 url("gambar/sekolah.png");
 
 background-size:cover;
 background-position:center;
 color:white;
-padding:120px 20px;
+padding:140px 20px;
 text-align:center;
 }
 
@@ -155,8 +155,19 @@ border-radius:5px;
 font-weight:bold;
 }
 
+.hero-btn{
+padding:14px 28px;
+font-size:16px;
+}
+
 .hero-btn:hover{
 background:#ffd54f;
+transform:scale(1.05);
+transition:0.3s;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 /* FOOTER */
