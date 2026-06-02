@@ -124,7 +124,7 @@ background:#1ebe5d;
 
 .hero{
 background:
-linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.20)),
 url("gambar/sekolah.png");
 
 background-size:cover;
